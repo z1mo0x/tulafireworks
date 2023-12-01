@@ -145,10 +145,13 @@
 
 .filtered {
   filter: grayscale(1);
+  transform:scale(1.1);
 }
 
 .no-filtered {
   filter: grayscale(0);
+  transform:scale(1);
+  
 }
 
 .combo-plus img:nth-child(1) {
